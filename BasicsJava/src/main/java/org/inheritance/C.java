@@ -4,7 +4,7 @@ package org.inheritance;
      int x;
      int y;
     void display(){
-        System.out.println(x+y);
+        System.out.println(x-y);
 
     }
 }
