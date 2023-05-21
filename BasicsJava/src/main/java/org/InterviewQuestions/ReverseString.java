@@ -4,7 +4,7 @@ public class ReverseString {
 
     public static void main(String[] args) {
 
-        String str = "Anbumani";
+        String str = "java is a programming language";
         String value = " ";
         /** Method 1 */
 //        int length=str.length();
@@ -14,12 +14,12 @@ public class ReverseString {
 //        System.out.println(value);
 
         /** Method 2 */
-//        char a[]=str.toCharArray();
-//        int len= a.length;
-//        for (int i=len-1;i>=0;i--){
-//            value =value+a[i];
-//        }
-//        System.out.println(value);
+        char a[]=str.toCharArray();
+        int len= a.length;
+        for (int i=len-1;i>=0;i--){
+            value =value+a[i];
+        }
+        System.out.println(value);
 
         /** Method 3 */
 
